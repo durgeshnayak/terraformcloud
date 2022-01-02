@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "durgesh-nayak"
     workspaces {
-      name = "testbench"
+      name = "terraformcloud-aws"
     }
   }
 
